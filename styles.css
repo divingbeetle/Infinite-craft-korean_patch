@@ -1,0 +1,52 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.popup_content {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.contents_style {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#translateButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-weight: 400;
+}
+
+#translateButton:hover {
+    background-color: #0056b3;
+}
+
+#translateButton:active {
+    transform: scale(0.98);
+}
+
+#status {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #b2003b;
+}
+
+
